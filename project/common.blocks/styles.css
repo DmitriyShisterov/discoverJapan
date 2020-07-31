@@ -1,0 +1,11 @@
+/*variables*/
+body {
+  font: 100% "Mukta Malar", sans-serif;
+  color: #fff;
+}
+
+.wrapper {
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+}

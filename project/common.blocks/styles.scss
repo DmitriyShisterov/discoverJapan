@@ -1,0 +1,13 @@
+/*variables*/
+$font-stack: 'Mukta Malar', sans-serif;
+$primary-color: #fff;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+.wrapper {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+}
