@@ -1,0 +1,22 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%; }
+
+.sideBar__link {
+  font-family: "Mukta Malar", sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 60px;
+  text-decoration: none; }
+
+.siderbar__title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 0px; }
+
+.sidebar__list {
+  list-style: none;
+  padding-inline-start: 0; }

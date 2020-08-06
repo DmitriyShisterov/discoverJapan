@@ -1,0 +1,17 @@
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20%;  
+}
+  
+.footer__p {
+    width: 30%;
+    font-size: 14px;
+    
+    @media (max-width: 1280px) { 
+        width: 25%;
+    }
+}
+

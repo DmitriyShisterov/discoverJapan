@@ -1,0 +1,191 @@
+/*variables*/
+.page {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Mukta Malar", sans-serif;
+  color: #fff; }
+
+.page__wrapper {
+  max-width: 1400px;
+  max-height: 800px;
+  height: 100%;
+  background-image: url(../src/acasia.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0 10000px 0 rgba(33, 33, 33, 0.75) inset;
+          box-shadow: 0 10000px 0 rgba(33, 33, 33, 0.75) inset;
+  border-radius: 10px; }
+  @media (max-width: 1280px) {
+    .page__wrapper {
+      border-radius: 0px; } }
+
+.page__circle-wrap {
+  width: 100%;
+  position: relative; }
+
+.page__circle {
+  width: 560px;
+  height: 560px;
+  background-color: #ff5656;
+  border-radius: 50%;
+  opacity: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 20%);
+          transform: translate(-50%, 20%); }
+  @media (max-width: 1280px) {
+    .page__circle {
+      width: 480px;
+      height: 480px; } }
+
+.page__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 100px 50px 100px;
+  height: calc(100% - 100px); }
+
+.page__main-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60%; }
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  height: 20%; }
+
+.header__title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 80px; }
+
+.menu {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.menu__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.menu__list-item {
+  width: 30%; }
+
+.menu__link {
+  color: #fff;
+  text-decoration: none; }
+
+.sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%; }
+
+.sideBar__link {
+  font-family: "Mukta Malar", sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 60px;
+  text-decoration: none; }
+
+.siderbar__title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 0px; }
+
+.sidebar__list {
+  list-style: none;
+  -webkit-padding-start: 0;
+     -moz-padding-start: 0;
+          padding-inline-start: 0; }
+
+.social-nets {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.social-nets__link {
+  text-decoration: none; }
+
+.social-nets__img {
+  width: 20px;
+  height: auto; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20%; }
+
+.footer__p {
+  width: 30%;
+  font-size: 14px; }
+  @media (max-width: 1280px) {
+    .footer__p {
+      width: 25%; } }
